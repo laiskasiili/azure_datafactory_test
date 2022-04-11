@@ -13,7 +13,8 @@
 				"type": "AzureBlobFSLocation",
 				"fileName": "source1.xlsx",
 				"fileSystem": "source1"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": [
 			{
