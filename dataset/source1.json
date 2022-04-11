@@ -1,0 +1,33 @@
+{
+	"name": "source1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServiceADLG2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "source1.xlsx",
+				"fileSystem": "source1"
+			}
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
